@@ -10,49 +10,38 @@ export default defineUserConfig({
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
     author: "SHIRUI CAO",
-    authorAvatar: "/head.png",
     docsRepo: "https://github.com/PowerPhone/PowerPhone-VuePress",
     docsBranch: "main",
     docsDir: ".",
     lastUpdatedText: "",
     // series 为原 sidebar
     series: {
-      "/docs/theme-reco/": [
+      "/docs/": [
         {
-          text: "module one",
-          children: ["home", "theme"],
+          text: "Quick Start",
+          children: ["quickStart"],
         },
         {
-          text: "module two",
-          children: ["api", "plugin"],
+          text: "Development",
+          children: ["hack"],
+        },
+        {
+          text: "FAQ",
+          children: ["faq"],
         },
       ],
     },
     navbar: [
       { text: "Home", link: "/" },
-      { text: "Categories", link: "/categories/reco/1/" },
-      { text: "Tags", link: "/tags/tag1/1/" },
+      { text: "Cite", link: "/blogs/citations" },
+      { text: "Download Paper", link: "/2023ACM_Mobicom_PowerPhone.pdf" },
       {
         text: "Docs",
         children: [
-          { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
-          { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
+          { text: "Quick Start", link: "/docs/quickStart" },
         ],
       },
     ],
-    // commentConfig: {
-    //   type: 'valie',
-    //   // options 与 1.x 的 valineConfig 配置一致
-    //   options: {
-    //     // appId: 'xxx',
-    //     // appKey: 'xxx',
-    //     // placeholder: '填写邮箱可以收到回复提醒哦！',
-    //     // verify: true, // 验证码服务
-    //     // notify: true,
-    //     // recordIP: true,
-    //     // hideComments: true // 隐藏评论
-    //   },
-    // },
   }),
   // debug: true,
 });

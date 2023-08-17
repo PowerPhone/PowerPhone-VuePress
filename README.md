@@ -1,10 +1,11 @@
 ---
 home: true
+isShowTitleInHome: true
+actionText: About
+actionLink: /views/other/about
 modules:
   - BannerBrand
-  - Blog
   - MdContent
-  - Footer
 bannerBrand:
   bgImage: '/bg.svg'
   title: PowerPhone
@@ -12,40 +13,56 @@ bannerBrand:
   tagline: > 
     ACM MobiCom 2023 Paper "PowerPhone: Unleashing the Acoustic Sensing Capability of Smartphones" 
   buttons:
-    - { text: Get Started, link: '/docs/guide/introduce' }
-    - { text: Paper PDF, link: '/2023ACM_Mobicom_PowerPhone.pdf' }
+    - { text: Get Started, link: '/#get-started' }
+    - { text: Cite, link: '/#citation' }
+    - { text: Paper PDF, link: '/2023ACM_Mobicom_PowerPhone.pdf', type: 'plain' }
     - { text: DOI, link: 'https://doi.org/10.1145/3570361.3613270', type: 'plain' }
   socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/PowerPhone' }
-blog:
-  socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/PowerPhone' }
-isShowTitleInHome: true
-actionText: About
-actionLink: /views/other/about
+    - { icon: 'LogoGithub', link: 'https://github.com/PowerPhone/PowerPhone' }
 ---
 
-## 快速开始
+## Features
+PowerPhone reconfigures selected Android smartphones to support high sampling rates recording and playing on their built-in microphones and speakers. Such high sampling rates bring many benefits to **acoustic sensing**. Specifically:
 
-**npx**
+* **Finer Resolution**: We improved the resolution of the acoustic sensing on smartphone using single microphone to **1cm**.
+* **Finer Granularity**: We push the sensing granularity of subtle movements to **2um** and show the feasibility of turning the smartphone into a micrometer-level machine vibration meter.
+* **Longer Range**:  We increase the sensing range to **6m** and showcase room-scale human presence detection using a smartphone.
+* **More Applications**:  With much higher Nyquist frequency, PowerPhone can enable many new application that was previously infeasible. 
 
-```bash
-# 初始化，并选择 2.x
-npx @vuepress-reco/theme-cli init
-```
 
-**npm**
+## Video
 
-```bash
-# 初始化，并选择 2.x
-npm install @vuepress-reco/theme-cli@1.0.7 -g
-theme-cli init
-```
+TBD
 
-**yarn**
+## Get Started
 
 ```bash
-# 初始化，并选择 2.x
-yarn global add @vuepress-reco/theme-cli@1.0.7
-theme-cli init
+# TODO
 ```
+
+## Citation
+If you use this project or its artifacts in your research, please cite:
+:::: code-group
+::: code-group-item LaTex
+```latex
+@inproceedings{powerphone,
+  title={PowerPhone: Unleashing the Acoustic Sensing Capability of Smartphones},
+  author={Cao*, Shirui and Li*, Dong and Lee, Sunghoon Ivan and Xiong, Jie},
+  booktitle={Proceedings of the 29th Annual International Conference on Mobile Computing And Networking},
+  year={2023},
+  url = {https://doi.org/10.1145/3570361.3613270},
+  doi = {10.1145/3570361.3613270}
+}
+```
+:::
+::: code-group-item ACM Ref
+```
+Shirui Cao∗, Dong Li∗, Sunghoon Ivan Lee, Jie Xiong. 2023. Power-
+Phone: Unleashing the Acoustic Sensing Capability of Smartphones.
+In The 29th Annual International Conference on Mobile Computing
+and Networking (ACM MobiCom ’23), October 2–6, 2023, Madrid,
+Spain. ACM, New York, NY, USA, 16 pages. https://doi.org/10.1145/
+3570361.3613270
+```
+:::
+::::
