@@ -15,19 +15,19 @@ bannerBrand:
   buttons:
     - { text: Get Started, link: '/#get-started' }
     - { text: Cite, link: '/#citation' }
-    - { text: Paper PDF, link: '/2023ACM_Mobicom_PowerPhone.pdf', type: 'plain' }
+    - { text: Paper, link: '/2023ACM_Mobicom_PowerPhone.pdf', type: 'plain' }
     - { text: DOI, link: 'https://doi.org/10.1145/3570361.3613270', type: 'plain' }
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/PowerPhone/PowerPhone' }
 ---
 
 ## Features
-PowerPhone reconfigures selected Android smartphones to support high sampling rates recording and playing on their built-in microphones and speakers. Such high sampling rates bring many benefits to **acoustic sensing**. Specifically:
+PowerPhone reconfigures selected Android smartphones to support high-sampling-rate recording and playing on their built-in microphones and speakers. Such high sampling rates bring many benefits to **acoustic sensing**. Specifically:
 
-* **Finer Resolution**: We improved the resolution of the acoustic sensing on smartphone using single microphone to **1cm**.
-* **Finer Granularity**: We push the sensing granularity of subtle movements to **2um** and show the feasibility of turning the smartphone into a micrometer-level machine vibration meter.
+* **Finer Resolution**: We improved the resolution of the acoustic sensing on smartphones using single microphone to **1cm**.
+* **Finer Granularity**: We push the sensing granularity of subtle movements to **2μm** and show the feasibility of turning the smartphone into a micrometer-level machine vibration meter.
 * **Longer Range**:  We increase the sensing range to **6m** and showcase room-scale human presence detection using a smartphone.
-* **More Applications**:  With much higher Nyquist frequency, PowerPhone can enable many new application that was previously infeasible. 
+* **More Applications**:  With much higher Nyquist frequency (i.e. **96kHz**), PowerPhone can enable many new applications that were previously infeasible. 
 
 
 ## Video

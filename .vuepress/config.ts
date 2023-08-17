@@ -32,15 +32,23 @@ export default defineUserConfig({
       ],
     },
     navbar: [
-      { text: "Home", link: "/" },
-      { text: "Cite", link: "/blogs/citations" },
-      { text: "Download Paper", link: "/2023ACM_Mobicom_PowerPhone.pdf" },
+      { text: "Home", link: "/", icon: "Home" },
+      { text: "Cite", link: "/blogs/citations", icon: "Quotes" },
+      {
+        text: "Download",
+        icon: "Download",
+        children: [
+          { text: "Paper", link: "https://powerphone.github.io/2023ACM_Mobicom_PowerPhone.pdf" },
+        ],
+      },
       {
         text: "Docs",
+        icon: "Document",
         children: [
           { text: "Quick Start", link: "/docs/quickStart" },
         ],
       },
+      { text: "Source", link: "https://github.com/PowerPhone", icon: "LogoGithub" },
     ],
   }),
   // debug: true,
