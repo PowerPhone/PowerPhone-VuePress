@@ -19,7 +19,7 @@ export default defineUserConfig({
       "/docs/": [
         {
           text: "Quick Start",
-          children: ["quickStart"],
+          children: ["quickStart", "supportedSmartphones"],
         },
         {
           text: "Development",
@@ -39,6 +39,7 @@ export default defineUserConfig({
         icon: "Download",
         children: [
           { text: "Paper", link: "https://powerphone.github.io/2023ACM_Mobicom_PowerPhone.pdf" },
+          { text: "System Images", link: "https://github.com/PowerPhone/PowerPhone/releases" },
         ],
       },
       {
@@ -46,6 +47,8 @@ export default defineUserConfig({
         icon: "Document",
         children: [
           { text: "Quick Start", link: "/docs/quickStart" },
+          { text: "Supported Phones", link: "/docs/supportedSmartphones" },
+          { text: "Reconfigure From Scratch", link: "/docs/hack" },
         ],
       },
       { text: "Source", link: "https://github.com/PowerPhone", icon: "LogoGithub" },

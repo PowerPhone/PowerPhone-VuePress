@@ -13,7 +13,7 @@ bannerBrand:
   tagline: > 
     ACM MobiCom 2023 Paper "PowerPhone: Unleashing the Acoustic Sensing Capability of Smartphones" 
   buttons:
-    - { text: Get Started, link: '/#get-started' }
+    - { text: Get Started, link: '/docs/quickStart' }
     - { text: Cite, link: '/#citation' }
     - { text: Paper, link: '/2023ACM_Mobicom_PowerPhone.pdf', type: 'plain' }
     - { text: DOI, link: 'https://doi.org/10.1145/3570361.3613270', type: 'plain' }
@@ -36,9 +36,11 @@ TBD
 
 ## Get Started
 
-```bash
-# TODO
-```
+1. Have a [supported smartphone](/docs/quickStart.md).
+2. [Unlock bootloader](/docs/quickStart.md).
+3. [Flash recovery image](/docs/quickStart.md).
+4. [Flash system image](/docs/quickStart.md).
+5. You're ready to go!
 
 ## Citation
 If you use this project or its artifacts in your research, please cite:
