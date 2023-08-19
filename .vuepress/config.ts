@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 
 export default defineUserConfig({
   lang: "en-US",
@@ -19,7 +20,7 @@ export default defineUserConfig({
       "/docs/": [
         {
           text: "Quick Start",
-          children: ["quickStart", "supportedSmartphones"],
+          children: ["quickStart", "supportedSmartphones", "motorolaEdge2020", "samsungS9Plus", "xiaomiRedmiNotePro9", "samsungS10"],
         },
         {
           text: "Development",
@@ -54,5 +55,10 @@ export default defineUserConfig({
       { text: "Source", link: "https://github.com/PowerPhone", icon: "LogoGithub" },
     ],
   }),
+  plugins: [
+    googleAnalyticsPlugin({
+      id: 'G-5M6LVV58ET',
+    }),
+  ],
   // debug: true,
 });

@@ -12,7 +12,7 @@ Make sure you have one of the following smartphones:
 | Brand | Model | Codename |
 | ----- | ----- | -------  |
 | Motorola| Edge (2020) | racer |
-| Xiaomi | Redmi Note 9 Pro | joyuse |
+| Xiaomi | Redmi Note 9 Pro | joyeuse |
 | Samsung | Galaxy S9+ (Snapdragon version) | star2qltechn |
 | Samsung | Galaxy S10 (Exynos version) | beyond1lte |
 
@@ -27,11 +27,13 @@ Check [Smartphones Model Info](/docs/supportedSmartphones.md) carefully before p
 :::
 
 ## 2. Tooling  ##
-You will need to install [Android SDK Platform-Tools](https://developer.android.com/tools/releases/platform-tools) to access the command-line utilities we're going to use such as `adb` and `fastboot`. After downloading, unzip it to your desired location, and add it to your environment variable `$PATH`.
+You will need to install [Android SDK Platform-Tools](https://developer.android.com/tools/releases/platform-tools) to access the command-line utilities we're going to use such as `adb` and `fastboot`. After downloading, unzip it to your desired location, and add it to your environment variable `$PATH`. 
+
+Samsung does not implement fastboot, therefore you will need [Odin](https://samsungodin.com/) (Windows GUI) or [Heimdall suite](https://androidfilehost.com/?w=files&flid=304516)(Multi-platform CLI)
 
 ## 3. Unlock Bootloader ##
 
-On factory-setting, the bootloader of the Android smartphones is locked, meaning it can only flash signed images from the manufacturer. We need to unlock it before applying our systems. In general, by Googleing "PHONE_MODEL unlock bootloader" should lead you to tutorials of this producers. Helperful links: 
+On factory-setting, the bootloader of the Android smartphones is locked, meaning it can only flash signed images from the manufacturer. We need to unlock it before applying our systems. In general, by Googleing "PHONE_MODEL unlock bootloader" should lead you to tutorials of this producers. Helpful links: 
 
 * [Bootloader overview](https://source.android.com/docs/core/architecture/bootloader).
 * [Apply for unlocking Mi devices](https://en.miui.com/unlock/index.html).
