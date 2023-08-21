@@ -7,9 +7,11 @@ export default defineUserConfig({
   lang: "en-US",
   title: "PowerPhone",
   description: "Unleashing the Acoustic Sensing Capability of Smartphones",
+  head: [['link', { rel: 'icon', type:'image/png' , href: '/logo.png' }]],
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
-    logo: "/logo.png",
+    logo: "/logo.svg",
+    home: "/",
     author: "SHIRUI CAO",
     docsRepo: "https://github.com/PowerPhone/PowerPhone-VuePress",
     docsBranch: "main",
