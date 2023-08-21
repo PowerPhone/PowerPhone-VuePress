@@ -10,7 +10,7 @@ export default defineUserConfig({
   head: [['link', { rel: 'icon', type:'image/png' , href: '/logo.png' }]],
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
-    logo: "/logo.svg",
+    logo: null,
     home: "/",
     author: "SHIRUI CAO",
     docsRepo: "https://github.com/PowerPhone/PowerPhone-VuePress",
