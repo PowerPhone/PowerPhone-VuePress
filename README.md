@@ -5,6 +5,7 @@ actionText: About
 actionLink: /views/other/about
 modules:
   - BannerBrand
+  - Banner
   - MdContent
 bannerBrand:
   bgImage: '/bg.svg'
@@ -19,7 +20,11 @@ bannerBrand:
     - { text: DOI, link: 'https://doi.org/10.1145/3570361.3613270', type: 'plain' }
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/PowerPhone/PowerPhone' }
+banner:
+  heroText: 'Video Will Be Uploaded Soon'
 ---
+
+![](/logo.svg)
 
 ## Features
 PowerPhone reconfigures selected Android smartphones to support high-sampling-rate recording and playing on their built-in microphones and speakers. Such high sampling rates bring many benefits to **acoustic sensing**. Specifically:
@@ -28,11 +33,6 @@ PowerPhone reconfigures selected Android smartphones to support high-sampling-ra
 * **Finer Granularity**: We push the sensing granularity of subtle movements to **2μm** and show the feasibility of turning the smartphone into a micrometer-level machine vibration meter.
 * **Longer Range**:  We increase the sensing range to **6m** and showcase room-scale human presence detection using a smartphone.
 * **More Applications**:  With much higher Nyquist frequency (i.e. **96kHz**), PowerPhone can enable many new applications that were previously infeasible. 
-
-
-## Video
-
-TBD
 
 ## Get Started
 
@@ -88,15 +88,15 @@ Please note that the Linux driver codes are under [GPL license](https://www.gnu.
 
 ## Terms
 ### Disclaimer
-<font size="1">
+<p style="line-height:120%;font-size:10px;">
 Our system images are specifically built for acoustic sensing research and are outdated without necessary security updates. Never use it on your daily-used smartphone. 
-
+<br/><br/>
 All information and files — both in source and compiled form — are provided on an as is basis. No guarantees or warranties are given or implied. The user assumes all risks of any damages that may occur, including but not limited to loss of data, damages to hardware, or loss of business profits. Please use at your own risk. 
-
+<br/><br/>
 Certain images, logos, pictures, and other works originating with organizations other than us may be or are the trademarks and/or servicemarks of those other organizations and are subject to the laws of their registered countries. Our usage constitutes a ‘fair use’ of any such copyrighted material as provided for in section 107 of the US Copyright Law. If you wish to use copyrighted material from this site for purposes of your own that go beyond ‘fair use’, you must obtain permission from the copyright owner. Requests for removal of copyright material may be sent to any of the paper's authors through email. 
-</font>
+</p>
 
 ### Privacy Policy
-<font size="1">
+<p style="line-height:120%;font-size:10px;">
 As is true of most websites, we gather some information automatically and store it in log files. This information includes Internet Protocol (IP) addresses, browser type (and version) and language, Internet service provider (ISP), referring and exit pages, operating system, date/time stamp, and clickstream data. We do not share your information with third-parties.
-</font>
+</p>
