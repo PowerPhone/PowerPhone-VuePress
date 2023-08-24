@@ -69,5 +69,10 @@ If operate incorrectly, this step may brick your smartphone.
 
 ## 5. Play & Record Audios ##
 
-1. Explore [scripts](https://github.com/PowerPhone/PowerPhone) in our repo. 
-2. Use `tinyplay` and `tinycap` to play & record audios.
+1. Run `adb root` to get root privilege.
+2. Run `adb shell` to enter the shell of the smartphone.
+3. Create a playground working directory for yourself `mkdir /data/tmp/`.
+4. Explore [scripts](https://github.com/PowerPhone/PowerPhone) in our repo. 
+5. Copy corresponding script to your working directory.
+6. Use our scripts to play and / or record audio from/to files.
+7. You can use `adb pull` and `adb push` commands to fetch / send files to the smartphone. 

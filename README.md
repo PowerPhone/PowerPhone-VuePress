@@ -34,7 +34,7 @@ PowerPhone reconfigures selected Android smartphones to support high-sampling-ra
 * **Longer Range**:  We increase the sensing range to **6m** and showcase room-scale human presence detection using a smartphone.
 * **More Applications**:  With much higher Nyquist frequency (i.e. **96kHz**), PowerPhone can enable many new applications that were previously infeasible. 
 
-## Get Started
+## Steps
 
 1. Have a [supported smartphone](/docs/supportedSmartphones.md).
 2. [Unlock bootloader](/docs/quickStart.md).
