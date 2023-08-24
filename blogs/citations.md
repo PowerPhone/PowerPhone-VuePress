@@ -15,8 +15,8 @@ If you use this project or its artifacts in your research, please cite:
   author={Cao*, Shirui and Li*, Dong and Lee, Sunghoon Ivan and Xiong, Jie},
   booktitle={Proceedings of the 29th Annual International Conference on Mobile Computing And Networking},
   year={2023},
-  url = {https://doi.org/10.1145/3570361.3613270},
-  doi = {10.1145/3570361.3613270}
+  url={https://doi.org/10.1145/3570361.3613270},
+  doi={10.1145/3570361.3613270}
 }
 ```
 :::
