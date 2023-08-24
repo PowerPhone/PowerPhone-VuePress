@@ -36,7 +36,7 @@ PowerPhone reconfigures selected Android smartphones to support high-sampling-ra
 
 ## Get Started
 
-1. Have a [supported smartphone](/docs/quickStart.md).
+1. Have a [supported smartphone](/docs/supportedSmartphones.md).
 2. [Unlock bootloader](/docs/quickStart.md).
 3. [Flash recovery image](/docs/quickStart.md).
 4. [Flash system image](/docs/quickStart.md).
