@@ -8,6 +8,8 @@ Before applying any of our images and patches, please flash or upgrade to an off
 
 (By clicking "Update" on the stock system should do this for you).
 
+Once the official ROM installed and you booted to the Android launcher, you can proceed to the next step.
+
 ## II. Unlock Bootloader
 Follow the instruction on this link: [Unlock Motorola devices](https://en-us.support.motorola.com/app/standalone/bootloader/unlock-your-device-a)
 

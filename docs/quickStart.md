@@ -4,6 +4,9 @@ date: 2023/08/16
 ---
 
 We are providing custom ROMs for you to quickly enjoy the benefit brought by PowerPhone. 
+::: info
+This page serves as a general introduction about the process. You should follow the model-specific instructions on the navigation bar whenever possible.
+:::
 
 ## 1. Supported Smartphones ##
 
@@ -60,14 +63,14 @@ Samsung officials do not support unlocking Qualcomm Snapdragon devices sold in N
 If operate incorrectly, this step may brick your smartphone.
 :::
 
-## 4. Flash Our System Image ##
+## 5. Flash Our System Image ##
 
 1. Download our system image (.zip) from our [Release](https://github.com/PowerPhone/PowerPhone/releases).
 2. Reboot into custom recovery through `fastboot reboot recovery` if you are in bootloader mode, or through `adb reboot recovery` if you are in the Android system.
 3. In the custom recovery, find and enter "ADB Sideload" mode.
 4. On the computer, run `adb sideload xxxx.zip` to install our Android distribution.
 
-## 5. Play & Record Audios ##
+## 6. Play & Record Audios ##
 
 1. Run `adb root` to get root privilege.
 2. Run `adb shell` to enter the shell of the smartphone.

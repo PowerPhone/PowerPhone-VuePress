@@ -5,7 +5,6 @@ actionText: About
 actionLink: /views/other/about
 modules:
   - BannerBrand
-  - Banner
   - MdContent
 bannerBrand:
   bgImage: '/bg.svg'
@@ -20,8 +19,6 @@ bannerBrand:
     - { text: DOI, link: 'https://doi.org/10.1145/3570361.3613270', type: 'plain' }
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/PowerPhone/PowerPhone' }
-banner:
-  heroText: 'Video Will Be Uploaded Soon'
 ---
 
 ![](/logo.svg)
@@ -37,12 +34,14 @@ PowerPhone reconfigures selected Android smartphones to support high-sampling-ra
 ## Steps
 
 1. Have a [supported smartphone](/docs/supportedSmartphones.md).
-2. [Unlock bootloader](/docs/quickStart.md).
-3. [Flash recovery image](/docs/quickStart.md).
-4. [Flash system image](/docs/quickStart.md).
+2. [Unlock bootloader](/docs/quickStart.md#_3-unlock-bootloader).
+3. [Flash recovery image](/docs/quickStart.md#_4-flash-custom-custom-recovery-image).
+4. [Flash system image](/docs/quickStart.md#_5-flash-our-system-image).
 5. You're ready to go!
 
 ## Authors
+![https://www.cics.umass.edu/](/Manning_CICS-horiz-WEB.png)
+
 [Shirui Cao*](https://github.com/charlescao460) - PhD Student, CICS, University of Massachusetts Amherst
 
 [Dong Li*](https://people.cs.umass.edu/~dli/) - PhD Candidate, CICS, University of Massachusetts Amherst
@@ -58,24 +57,28 @@ If you use this project or its artifacts in your research, please cite:
 :::: code-group
 ::: code-group-item LaTex
 ```latex
-@inproceedings{powerphone,
-  title={PowerPhone: Unleashing the Acoustic Sensing Capability of Smartphones},
-  author={Cao*, Shirui and Li*, Dong and Lee, Sunghoon Ivan and Xiong, Jie},
-  booktitle={Proceedings of the 29th Annual International Conference on Mobile Computing And Networking},
-  year={2023},
-  url={https://doi.org/10.1145/3570361.3613270},
-  doi={10.1145/3570361.3613270}
+@inproceedings{10.1145/3570361.3613270,
+author = {Cao, Shirui and Li, Dong and Lee, Sunghoon Ivan and Xiong, Jie},
+title = {PowerPhone: Unleashing the Acoustic Sensing Capability of Smartphones},
+year = {2023},
+isbn = {9781450399906},
+url = {https://doi.org/10.1145/3570361.3613270},
+doi = {10.1145/3570361.3613270},
+booktitle = {Proceedings of the 29th Annual International Conference on Mobile Computing and Networking},
+articleno = {56},
+numpages = {16},
+location = {Madrid, Spain},
+series = {ACM MobiCom '23}
 }
 ```
 :::
 ::: code-group-item ACM Ref
 ```
-Shirui Cao∗, Dong Li∗, Sunghoon Ivan Lee, Jie Xiong. 2023. Power-
-Phone: Unleashing the Acoustic Sensing Capability of Smartphones.
-In The 29th Annual International Conference on Mobile Computing
-and Networking (ACM MobiCom ’23), October 2–6, 2023, Madrid,
-Spain. ACM, New York, NY, USA, 16 pages. https://doi.org/10.1145/
-3570361.3613270
+Shirui Cao, Dong Li, Sunghoon Ivan Lee, and Jie Xiong. 2023. PowerPhone: 
+Unleashing the Acoustic Sensing Capability of Smartphones. In Proceedings 
+of the 29th Annual International Conference on Mobile Computing and 
+Networking (ACM MobiCom '23). Association for Computing Machinery, New 
+York, NY, USA, Article 56, 1–16. https://doi.org/10.1145/3570361.3613270
 ```
 :::
 ::::
