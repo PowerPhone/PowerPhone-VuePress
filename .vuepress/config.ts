@@ -42,6 +42,7 @@ export default defineUserConfig({
         icon: "Download",
         children: [
           { text: "Paper", link: "https://powerphone.github.io/2023ACM_Mobicom_PowerPhone.pdf" },
+          { text: "Slides", link: "https://powerphone.github.io/PowerPhoneMobiCom2023.pdf" },
           { text: "System Images", link: "https://github.com/PowerPhone/PowerPhone/releases" },
         ],
       },
